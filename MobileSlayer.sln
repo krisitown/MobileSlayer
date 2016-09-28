@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileSlayer.CSharp.Plugins", "MobileSlayer.CSharp.Plugins.csproj", "{96B46562-8586-7066-25A9-2F5E4E4B3B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileSlayer.CSharp", "MobileSlayer.CSharp.csproj", "{5B74D339-D096-A9E1-9A18-DC1506FE252F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileSlayer.CSharp.Editor", "MobileSlayer.CSharp.Editor.csproj", "{4866AE5A-F1CD-47CE-1172-8024323398B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B46562-8586-7066-25A9-2F5E4E4B3B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B46562-8586-7066-25A9-2F5E4E4B3B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B46562-8586-7066-25A9-2F5E4E4B3B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B46562-8586-7066-25A9-2F5E4E4B3B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B74D339-D096-A9E1-9A18-DC1506FE252F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B74D339-D096-A9E1-9A18-DC1506FE252F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B74D339-D096-A9E1-9A18-DC1506FE252F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B74D339-D096-A9E1-9A18-DC1506FE252F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4866AE5A-F1CD-47CE-1172-8024323398B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4866AE5A-F1CD-47CE-1172-8024323398B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4866AE5A-F1CD-47CE-1172-8024323398B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4866AE5A-F1CD-47CE-1172-8024323398B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
