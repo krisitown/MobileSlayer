@@ -12,6 +12,9 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+        var rotation = transform.rotation;
+        transform.rotation = rotation * Quaternion.Euler(0, 0, 3.4f);
+        // transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+        transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
 	}
 }
