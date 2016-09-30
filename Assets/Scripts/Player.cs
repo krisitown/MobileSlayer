@@ -6,17 +6,20 @@ public class Player : MonoBehaviour {
     public float dashSpeed = 15;
     public int attackSpeed = 20;
     public float maxRange = 10;
+    public float minRange = 4;
+    public int score = 0;
 
     private bool dashing = false;
     private int timer = 0;
     private int attackTimer = 0;
     private string attackType = "";
-
+    private int rangeTimer = 0;
     // Update is called once per frame
     void Update()
     {
         timer++;
         attackTimer++;
+        rangeTimer++;
 
         IndicateRange();
 
@@ -48,6 +51,7 @@ public class Player : MonoBehaviour {
             if(enemyCollider.tag == attackType)
             {
                 Debug.Log("enemy hit");
+                score += 1;
                 Destroy(enemyCollider.gameObject);
                 
                 if (range <= maxRange) range++;
@@ -58,6 +62,14 @@ public class Player : MonoBehaviour {
             }
 
             dashing = false;
+        }
+
+        if (rangeTimer % 60 == 0)
+        {
+            if(range > minRange)
+            {
+                range -= 0.3f;
+            }
         }
     }
 
